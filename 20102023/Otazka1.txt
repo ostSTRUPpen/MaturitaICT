@@ -1,0 +1,8 @@
+Co je algoritmus?
+Vývojový diagram
+Vlastnosti
+Cykly
+    (if, else, else if, switch, while, for (foreach), Brek, continue) (Dokázat napsat na tabuli (např výpis sudých čísel))
+    Příklady použití
+    Umět zakreslit vývojový diagram
+    
