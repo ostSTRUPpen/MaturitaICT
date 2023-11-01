@@ -1,0 +1,4 @@
+1) Move to folder (DDMMYYYY)
+2) Run "pipenv shell"
+3) do what you need
+4) leave using the command "exit"
