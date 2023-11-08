@@ -1,20 +1,20 @@
-Princip funkcí
-Syntax v pythonu
-použití, ukázka
-Co je rekurze
+Princip funkcí 
+Syntax v pythonu 
+použití, ukázka 
+Co je rekurze  
 
 
-K čemu jsou funkce?
-Co je funkce? (Co má?)
+K čemu jsou funkce? 
+Co je funkce? (Co má?) 
 main funkce (a Syntax v pythonu)
-Co je volání funkce?
+Co je volání funkce? 
 Rekurzivní funkce?
 
-Principy funkcí
-Syntax funkce
+Principy funkcí 
+Syntax funkce 
 Ukázka použití
 rekurze
 Python:
-Pojmenované parametry
-Libovolný počet arg (*args, **kwargs)
-Lokální a globální proměnné
+Pojmenované parametry 
+Libovolný počet arg (*args, **kwargs) 
+Lokální a globální proměnné 
