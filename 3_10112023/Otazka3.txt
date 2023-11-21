@@ -1,0 +1,16 @@
+Objekt
+Třída
+    Proč?
+
+Konstruktor
+
+Metody dědění
+    Proč dědit?
+        Ukázka (Zvíře -> kočka/pes)
+    Bázová/odvozená třída
+    Abstraktní metody
+    Volání konstruktoru nadřazené třídy
+    
+
+
+polymorfizmus
