@@ -4,7 +4,6 @@ Třída
 
 Konstruktor
 
-Metody dědění
     Proč dědit?
         Ukázka (Zvíře -> kočka/pes)
     Bázová/odvozená třída

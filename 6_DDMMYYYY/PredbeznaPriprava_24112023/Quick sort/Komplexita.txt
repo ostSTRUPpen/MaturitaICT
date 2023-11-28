@@ -1,0 +1,16 @@
+Náhodný výběr pivot hodně ovlivňuje výslednou komplexitu
+Komplexita se dá snížit tím, že pivot bude median hodnota
+
+Nejlepší případ (pivot je blízko medianu) => O(n)
+
+=> O(n*log(2)(n)).
+
+Nejhorší případ (pivot je okrajová hodnota) => O(n^2)
+
++ 
+Velmi rychlý (nejhorší možný případ je velmi nepravděpodobný)
+Dá se celkem jednoduše upravit pro více jader
+
+-
+Víc paměti
+Nejde jasně určit časovou komplexitu (hodně o štěstí)

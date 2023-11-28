@@ -1,0 +1,7 @@
+Jednoduché datové typy
+    Proč?
+    Ordinální/Neordinální
+    boolean, int, char, string, float, double, void, null, none, pointer, pole (1D, 2D, 3D)
+    Typovaný/netypovaný jazyk
+        Výhody a nevýhody
+    Homogenní/nehomogenní

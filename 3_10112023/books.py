@@ -29,6 +29,6 @@ class Novel(Book):
     def info(self):
         return f"{super().info()}\nŽánr: {self.__genre}\nInfo: {self.__info}"
         
-nov = Novel("G", "LU", "0045", "Pogánek")
+nov = Novel("G", "LU", "0045", "POG")
 lib.add_book(nov)
 lib.print_books()

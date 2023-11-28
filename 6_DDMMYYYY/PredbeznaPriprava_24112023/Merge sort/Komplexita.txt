@@ -1,0 +1,20 @@
+https://realpython.com/sorting-algorithms-python/#measuring-merge-sorts-big-o-complexity
+
+1) merge() 
+    Dva listy, jejichž sečtená délka je n (čili délka vstupu)
+    Následně listy spojuje s tím, že se na každý item v listu kouká max jednou
+    runtime komplexity O(n)
+
+2) merge_sort()
+    Rekurzivně rozdělují vtupní list na poloviny, dokud není délka listu menší než 2
+    Celkový počet rozdělení je roven log(2)(n) (= 2,584 963...) (https://www.vypocitejto.cz/logaritmus/logaritmus/)
+merge je voláno na každou polovinu listu, kterou vytvoří merge sort 
+=> O(n*log(2)(n))
+
++
+Má jednu z nejlepších časových komplexit
+Dá se velmi jednoduše upravit pro více jader
+
+-
+Pro menší listy je ale zbytečně složitý a jiné algoritmy (např BubbleSort) budou rychlejší
+Potřebuje více operační paměti, protože vytváří kopie listů, zatímco jiné algoritmy (např BuubleSort) dokáží list seřadit bez kopií

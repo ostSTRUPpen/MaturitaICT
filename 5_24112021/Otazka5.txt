@@ -1,0 +1,12 @@
+Abstraktní datové typy
+
+    Teoreticky:
+        Linked list
+        Zásobník
+        Fronta
+        Binární strom
+            K čemu? (Vyhledávání a třídění -> Binary Tree vs list)
+            Operace 
+                Inserting (Budu muset prakticky použít)
+                Searching a Traversing (Budu muset prakticky použít)
+    
