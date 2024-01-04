@@ -1,0 +1,23 @@
+Algoritmy: třídění, efektivita, optimalizace
+
+	Složitost
+		O notation / Paměťová složitost
+		- Určit asymptotickou složitost (nejhorší scénář)
+		Pole
+			Průchod O(n)
+			Hledání O(n)
+			Řazení 
+
+	Základní složitosti (znát příklady)
+		n 
+		n^2
+		n*logn
+
+
+	Bubble sort
+	Select sort
+	a ještě jeden z insert/shell sort
+	
+	Quick sort
+	Merge sort
+	Heap sort
