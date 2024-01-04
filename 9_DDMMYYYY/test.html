@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		p {
+			color: red;
+		}
+
+		.form {
+			font-size: larger;
+		}
+
+		#add-button {
+			rotate: 15deg;
+		}
+	</style>
+	<!--
+	Odkaz na vnější css soubor
+	 <link rel="stylesheet" href="PATH/NAME.css">
+	-->
+	<title>Test</title>
+</head>
+
+<body>
+
+	<p>Počet:</p>
+	<div class="form">
+		<p id="output">0</p>
+		<button id="add-button" onclick="add()">Přičíst</button>
+	</div>
+	<script>
+		function add() {
+			let count = parseInt(document.getElementById("output").innerHTML);
+			count += 1
+			document.getElementById("output").innerHTML = count++;
+		}
+	</script>
+	<!--
+	Odkaz na vnější js soubor
+	<script src="PATH/NAME.js"></script>
+	-->
+</body>
+
+</html>
