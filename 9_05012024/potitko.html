@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+</head>
+<body>
+    <div>
+        <a id="imageLink" target="_blank"><img id="imageOutput"/></a>
+            <br/>
+        <button onclick="moveLeft()">doleva</button>
+        <button onclick="moveLeft()">doprava</button>
+    </div>
+    <script>
+        let images = ["http://www.ghb.cz/image/ghb/nove_obrazky/pozadi_hlavicky/pozadi02.jpg", "http://www.ghb.cz/image/ghb/nove_obrazky/pozadi_hlavicky/pozadi08.jpg", "http://www.ghb.cz/image/ghb/nove_obrazky/pozadi_hlavicky/pozadi10.jpg"]
+        let imageId = 0
+        document.getElementById("imageOutput").src = images[imageId]
+        document.getElementById("imageLink").href = images[imageId]
+
+        function moveLeft(){
+            imageId-=1
+            if(imageId < 0) imageId = images.length-1
+            document.getElementById("imageOutput").src = images[imageId]
+            document.getElementById("imageLink").href = images[imageId]
+        }
+        function moveRight(){
+            imageId+=1
+            if(imageId > images.length-1) imageId = 0
+            document.getElementById("imageOutput").src = images[imageId]
+            document.getElementById("imageLink").href = images[imageId]
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Podle ERD a nebo tabulek udělat SQL dotaz dle zadání
+
+ORDER BY, WHERE, SELECT, FROM, a INNER JOIN (rozdíl mezi nimi)
+CREATE/DROP TABLE/DB (možná ukázka)

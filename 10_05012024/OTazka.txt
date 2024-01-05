@@ -1,0 +1,6 @@
+K čemu máme databáze
+    (Redundance)
+
+Entity, ERD, Vazby, PK/FK, Vazební tabulka
+
+Vytvořte ERD na zadání (max 3 entity)
