@@ -33,8 +33,7 @@
 
 ## Jednoduchá HTML stránka:
 
-<code>
-
+```html
     <!DOCTYPE html>
     <html lang="en">
 
@@ -83,8 +82,7 @@
     </body>
 
     </html>
-
-</code>
+```
 
 ## Frameworky
 
@@ -95,8 +93,7 @@
 
 -   Stejná stránka ve frameworku Svelte
 
-<code>
-
+```html
     <script>
         let count = 0
 
@@ -122,5 +119,4 @@
         	rotate: 15deg;
         }
     </style>
-
-</code>
+```
