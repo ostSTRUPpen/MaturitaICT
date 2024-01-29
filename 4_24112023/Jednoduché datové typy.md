@@ -1,6 +1,6 @@
 # 4 Jednoduché datové typy
 Slouží k určení typu hodnot uložených v proměnné. Podle typu hodnoty jdou na proměnnou aplikovat různé funkce nebo operátory.
-1. Oridnální/Neordinální
+1. Ordinální/Neordinální
 	- U ordinálních datových typů lze jednoznačně určit předchozí i následující hodnotu
     1. Logická hodnota (`boolean`)
     	- Může být buď `True` nebo `False`
@@ -18,10 +18,15 @@ Slouží k určení typu hodnot uložených v proměnné. Podle typu hodnoty jdo
       		- `void` -> většinou vyjadřuje, že funkce nevrací žádnou hodnotu
       		- `null`-> proměnná nemá (smyslnou) hodnotu
       		- `none` -> většinou objekotvé programování, určuje, že objekt není
-		![Prázdné proměnné](https://www.datocms-assets.com/34817/1672148177-agzven5_700b.jpg "Prázdné proměnné")
+
+        <img src="https://www.datocms-assets.com/34817/1672148177-agzven5_700b.jpg" width="500">
+
     3. Pointer
     	- Ukazuje na místo v paměti, kde se nachází hodnota proměnné
     	- Například v linked listu ukazuje na následující hodnotu
+
+    <div style="page-break-after: always;"></div>
+
     4. Pole
     	- Slouží k ukládání většího množství souvisejících hodnot
     	- Může mít více dimenzí
@@ -54,6 +59,9 @@ Slouží k určení typu hodnot uložených v proměnné. Podle typu hodnoty jdo
       		- Při vytváření proměnné jasně určíme datový typ
       		- Do proměnné se nedá vložit hodnota s jiným datovým typem
       		- Například **C**
+
+<div style="page-break-after: always;"></div>
+
 ```python
 # Vytváření staticky typovaných proměnných v pythonu
 

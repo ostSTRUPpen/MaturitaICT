@@ -29,6 +29,9 @@ FROM Customers;
 	FROM clients
 	WHERE surname='Pavel';
 	```		
+
+<div style="page-break-after: always;"></div>
+
 - ORDER BY
 	- Slouží k seřazení výsledků
 	- V základu ASC (Vzestupně) nebo DESC (sestupně)
@@ -65,7 +68,7 @@ FROM Customers;
 		RIGHT JOIN table2
 		ON table1.column_name = table2.column_name;
 		```
-	![Grafické zobrazení JOINů](https://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg "Jednotlivé JOINy")
+	<img src="https://www.codeproject.com/KB/database/Visual_SQL_Joins/Visual_SQL_JOINS_orig.jpg" width="400">
 - CREATE DB
 	- Slouží k vytvoření databáze
 	```sql
@@ -82,7 +85,6 @@ FROM Customers;
 	CREATE TABLE table_name (
     	column1 datatype,
     	column2 datatype,
-    	column3 datatype,
    		....
 	);
 	```

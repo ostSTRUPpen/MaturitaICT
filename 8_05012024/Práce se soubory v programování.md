@@ -28,6 +28,7 @@ with open("test.txt", "r") as file:
 # output:
 # Hello World
 ```
+<div style="page-break-after: always;"></div>
 
 ```python
 # Zápis
@@ -55,6 +56,7 @@ with open("test.txt", "a") as file:
 # Hello World
 # Goodbye World
 ```
+<div style="page-break-after: always;"></div>
 
 # Ukázka:
 Program na čištění zbytečných informací z logů vygenerovaných ROBOCOPY (využívám při kopírování záloh na jiný disk)

@@ -31,6 +31,8 @@
 -   Fungování webové stránky
 -   Zapisuje se buď do tagu \<script>\</script> nebo do samostatného dokumentu .js na který je v .html v body části odkaz
 
+<div style="page-break-after: always;"></div>
+
 ## Jednoduchá HTML stránka:
 
 ```html

@@ -39,7 +39,7 @@ Vývojový diagram je druh diagramu, který slouží ke grafickému znázorněn�
 
 Například vývojový diagram pro kontrolu žárovky: 
 
-![Diagram výměny žárovky](https://upload.wikimedia.org/wikipedia/commons/5/55/Vyvojovy_diagram_zarovka.png "Diagram výměny žárovky")
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Vyvojovy_diagram_zarovka.png" width="300">
 
 <div style="page-break-after: always;"></div>
 
@@ -80,6 +80,9 @@ Například vývojový diagram pro kontrolu žárovky:
 	else:
 		print("Je ti míň jak 18")
 	```
+
+<div style="page-break-after: always;"></div>
+
 - SWITCH
 	- Slouží k nahrazení většího množství ELSE IF příkazů 
 	- Python neměl do verze 3.10 SWITCH příkaz. Teď už ho má, ale nejmenuje se SWITCH [freecodecamo](https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/)
@@ -112,6 +115,8 @@ Například vývojový diagram pro kontrolu žárovky:
 	    case _:
 	        print("The language doesn't matter, what matters is solving problems.")
 	```
+
+<div style="page-break-after: always;"></div>
 
 ### Cykly
 Cyklus nebo také smyčka (angl. loop) je řídicí struktura počítačového programu, kde se opakovaně provádí posloupnost příkazů. Opakování i ukončení cyklu je řízeno nějakou podmínku.
@@ -152,6 +157,9 @@ Cyklus nebo také smyčka (angl. loop) je řídicí struktura počítačového p
     		continue
     	print(letter)
 	```
+
+<div style="page-break-after: always;"></div>
+
 ## MATURITA
 Co bude pravděpodobně potřeba:
 - Vědět, co je algoritmus
@@ -184,6 +192,9 @@ print(f"Sudá čísla: {even_numbers}")
 print(f"Lichá čísla: {odd_numbers}")
 print(f"Dělitelná pěti čísla: {divisible_by_five_numbers}")
 ```
+
+<div style="page-break-after: always;"></div>
+
 - 
 	1.  Najdi ve 2D poli průměr všech hodnot a následně vypiš všechna čísla, jejichž vzdálenost od průměru je menší nebo rovná 3.
 	2.  U čísel vypiš jejich souřadnice v poli
@@ -233,6 +244,9 @@ while True:
 #Final output
 print(cords)
 ```
+
+<div style="page-break-after: always;"></div>
+
 - Hra, kde si počítač myslí číslo (1-100) a hráč jej má uhodnout s tím, že mu napovídá větší/menší (Program také počítá počet pokusů)
 ```python
 import random

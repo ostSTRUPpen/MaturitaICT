@@ -28,6 +28,9 @@ def can_drink(age, legal_drinking_age):
 print(can_drink(19, 18))
 # >> True
 ```
+
+<div style="page-break-after: always;"></div>
+
 ## Funkce v pythonu
 Funkce v pythonu (a jiných programovacích jazycích) má svá specifika
 - Pojmenované parametry
@@ -63,11 +66,12 @@ print(can_drink(age = 18, legal_drinking_age= 19))
 # >> False
 ```
 
+<div style="page-break-after: always;"></div>
+
 ```python
 # Libovolný počet argumentů
 
 # *args
-
 def preposition(preposition, *args):
   for arg in args:
     print(f"{preposition}{arg}")
@@ -79,12 +83,9 @@ preposition("a", "Petr", "Pavel", "Kolo")
 # >> aKolo
 
 # **kwargs
-
-
 def kwargs(arg1, **kwargs):
     for key, value in kwargs.items():
         print("%s == %s" % (key, value))
-
 
 # Driver code
 kwargs("Hi", first='world', mid='word', last='or')
@@ -108,7 +109,6 @@ def func2():
 #func2()
 #print(a)
 # >> error
-
 
 print(text)
 # >> Hello World
@@ -150,6 +150,9 @@ def x():
 if __name__ == "__main__":
     x()
 ```
+
+<div style="page-break-after: always;"></div>
+
 ## MATURITA
 -   Definice a syntax funkce
 -   Specifika pro python (pojmenované paramtery, \*args, \*\*kwargs, globální/lokální proměnné)
@@ -158,6 +161,7 @@ if __name__ == "__main__":
 
 ## KÓD Z HODINY
 ```python
+# Výpočet nové ceny na základě staré ceny a procentuální slevys
 def getPrice(name, old_price, discount):
     new_price = old_price - (old_price*(discount/100))
     return [name, new_price]

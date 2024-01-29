@@ -59,6 +59,9 @@ class Employee():
 emp1 = Employee("Petr")
 emp1.print_name()
 ```
+
+<div style="page-break-after: always;"></div>
+
 ## Dědění
 Umožňuje vytvořit novou třídu na základě jiné třídy. Nová třída může používat vlastnosti a metody nadřazené třídy. Může je upravovat nebo přepisovat nebo vytvářet vlastní (úpravy provedené v odvozené třídě se do nadřazené třídy nepřenášejí)
 ```python
@@ -82,6 +85,9 @@ class Employee(Human):
 emp1 = Employee("Petr", "M", "IT")
 emp1.print_info()
 ```
+
+<div style="page-break-after: always;"></div>
+
 ## Polymorfizmus
 Koncept, který mmá za cíl vytvoření nadřazené obecné třídy, ze které mohou dědit další již zaměřené třídy
 ```python
@@ -125,6 +131,9 @@ dog1 = Dog("Hafo", "Haf")
 dog1.print_info()
 dog1.make_sound()
 ```
+
+<div style="page-break-after: always;"></div>
+
 ## Maturita
 - Objekt
 - Třída
@@ -134,7 +143,8 @@ dog1.make_sound()
 - Bázová/odvozená třída
 - Volání konstruktoru nadřazené třídy
 - polymorfizmus
-Příklad:
+
+## KÓD Z HODINY
 ```python
 class Book():
     def __init__(self, name, author, year):
@@ -156,7 +166,6 @@ class Library():
 
 lib = Library()
 lib.add_book(Book("T", "JK", 1591))
-
 lib.print_books()
 
 class Novel(Book):

@@ -27,6 +27,7 @@ Slouží k abstraktnímu grafickému vyobrazení databáze a samotných informac
 dvou tabulek. Každý řádek vazební tabulky obsahuje pouze ID řádků v jiných tabulkách, které spojuje.
 [itnetwork](https://www.itnetwork.cz/ms-sql/mssql-tutorial-joiny-a-vazba-m-n)
 
+<div style="page-break-after: always;"></div>
 
 ## Možné otázky
 - Navrhněte prosím systém, který nám umožní efektivně spravovat naši **knihovnu**. Potřebujeme nástroj, který nám pomůže sledovat, které **knihy** máme k dispozici, kdo jsou naši **členové** a jaké knihy si od nás půjčují. V systému bychom rádi měli možnost evidovat informace o každé knize, včetně jejího názvu, autora a kategorie. Dále potřebujeme spravovat informace o našich členech, jako jsou jejich jména, adresy a kontaktní údaje. Proces **výpůjček** by měl být také součástí systému, kde budeme udržovat záznamy o tom, kdo si jakou knihu půjčil a kdy ji vrátil. Cílem je vytvořit přehledný systém, který nám usnadní správu knihovny a umožní nám lépe porozumět poptávce po knihách ze strany našich členů.
