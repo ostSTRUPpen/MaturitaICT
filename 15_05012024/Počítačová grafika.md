@@ -13,7 +13,7 @@
 -  Nevýhodou je nemožnost zachytit detaily (například na fotografii je formát nepoužitelný)
 - Výhody: při zvětšení/zmenšení neztrácí kvalitu
 - Nejčastější formát .svg
-- K vytváření a úpravě se většinou používá grafický editor ( inkscape ) ale lze využít i textový editor pro psaní a úpravu jednotlivých funkcí
+- K vytváření a úpravě se většinou používá grafický editor ( inkscape ) ale lze využít i textový editor ( \<svg\> na webových stránkách)
 
 
 TODO 
