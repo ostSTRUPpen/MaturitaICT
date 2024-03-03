@@ -1,7 +1,7 @@
 # 1 Algoritmus, vlastnosti, větvení a cykly
 
 ## Co je algoritmus?
-Algoritmus je nejčastěji používán v programování. Jedná se o přesný teoretický postup při řešení daného problému. Dle této definice se za algoritmus dá považovat například i kuhařský recept. Z pravidla jsou na algoritmy ovšem kladena určitá omezení
+Algoritmus je nejčastěji používán v programování. Jedná se o přesný teoretický postup při řešení daného problému. Dle této definice se za algoritmus dá považovat například i kuchařský recept. Z pravidla jsou na algoritmy ovšem kladena určitá omezení
 
 ### Základní vlastnosti algoritmu
 - Elementárnost
@@ -11,7 +11,7 @@ Algoritmus je nejčastěji používán v programování. Jedná se o přesný te
 - Obecnost
 	- Algoritmus neřeší jeden konkrétní problém (např. „jak spočítat 3×7“), ale obecnou třídu obdobných problémů (např. „jak spočítat součin dvou celých čísel“), má širokou množinu možných vstupů.
 - Determinovanost
-	- Algoritmus je determinovaný, pokud za stejných podmínek (pro stejné vstupy) poskytuje stejný výstup. Vyjímku tvoří šifrovací nebo generovací algoritmy, které nesmí být determinovatelné, aby splnili svůj účel.
+	- Algoritmus je determinovaný, pokud za stejných podmínek (pro stejné vstupy) poskytuje stejný výstup. Výjimku tvoří šifrovací nebo generovací algoritmy, které nesmí být determinovatelné, aby splnili svůj účel.
 - Determinismus
 	- Každý krok algoritmu musí být jednoznačně a přesně definován; v každé situaci musí být naprosto zřejmé, co a jak se má provést, jak má provádění algoritmu pokračovat.
 - Výstup
@@ -68,7 +68,7 @@ Například vývojový diagram pro kontrolu žárovky:
   		print("Nemůžeš pít alkohol")
 	```
 - ELSE IF
-	- Používá se ve spojení s IF a ELSE. Umožňuje vytvořit víc podmínek, které spadají do stejného bloku => první, co je splňená je použita a zbytek je přeskočen. ELSE je použito pouze pokud není splněná žádná z předešlých podmínek
+	- Používá se ve spojení s IF a ELSE. Umožňuje vytvořit víc podmínek, které spadají do stejného bloku => první, co je splněná je použita a zbytek je přeskočen. ELSE je použito pouze pokud není splněná žádná z předešlých podmínek
 	```python
 	age = int(input("Věk> "))
 	if age > 19:
@@ -85,13 +85,13 @@ Například vývojový diagram pro kontrolu žárovky:
 
 - SWITCH
 	- Slouží k nahrazení většího množství ELSE IF příkazů 
-	- Python neměl do verze 3.10 SWITCH příkaz. Teď už ho má, ale nejmenuje se SWITCH [freecodecamo](https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/)
+	- Python neměl do verze 3.10 SWITCH příkaz. Teď už ho má, ale nejmenuje se SWITCH [freecodecamp](https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/)
 	```python
 	# kód zkopírován z "https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/"
 	# komentáře jsem přidal já
 	lang = input("What's the programming language you want to learn? ")
 
-	# V tomto případě mi JS switch přijde praktičtější, proto ho budu přirovnávat k python verz
+	# V tomto případě mi JS switch přijde praktičtější, proto ho budu přirovnávat k python verzi
 
 	# v js -> switch(lang){
 	match lang:
@@ -129,7 +129,7 @@ Cyklus nebo také smyčka (angl. loop) je řídicí struktura počítačového p
 	```
 	
 - FOR
-	- Většinou slouží k iteraci jednotlivých částí array listů nebo obecně pro zpracovávání dat přes které se dá iterovat, protože narozdíl od while loopu obsahuje promměnou, která udává číslo iterace
+	- Většinou slouží k iteraci jednotlivých částí array listů nebo obecně pro zpracovávání dat přes které se dá iterovat, protože na rozdíl od while loopu obsahuje proměnnou, která udává číslo iterace
 	```python
 	abeceda = ['a', 'b', 'c', 'd']
 

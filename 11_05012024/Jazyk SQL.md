@@ -1,7 +1,8 @@
 # 11 Databáze: jazyk SQL
 Structured Query Language (SQL) je jazyk sloužící k manipulaci se strukturovanými daty uloženými v databázi a s databází samotnou.
 
-## Syntax [w3schools](https://www.w3schools.com/sql/)
+## Syntax 
+[w3schools](https://www.w3schools.com/sql/)
 - Možný SQL příkaz
 ```sql
 SELECT * 
@@ -43,7 +44,9 @@ FROM Customers;
 	WHERE order='Maska'
 	ORDER BY money_amount ASC, surname DESC;
 	```	
-- JOIN [Lepší na w3schools](https://www.w3schools.com/sql/sql_join.asp)
+- JOIN 
+	[Lepší na w3schools](https://www.w3schools.com/sql/sql_join.asp)
+	TODO Vysvětlit joiny
 	- INNER JOIN
 		- vrací záznamy které mají shodné hodnoty v obou tabulkách
 		```sql
@@ -93,3 +96,5 @@ FROM Customers;
 	```sql
 	DROP TABLE table_name;
 	```
+	-TODO co SQL umí (číst, insert, update, delete, truncate, a i pro tabulky create) (https://www.w3schools.com/sql/sql_insert.asp)
+	Ukázka - udělat si prezentaci s DB z GHBnav

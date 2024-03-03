@@ -11,19 +11,20 @@ Slouží k určení typu hodnot uložených v proměnné. Podle typu hodnoty jdo
     	- Jeden znak  
   	- U neordinálních čísel nelze jednoznačně určit předchozí a následující hodnotu
     	1. Reálná čísla (`float` nebo `double`)
-    		- čísla s pohiblivou desetinnou čárkou (tečkou)
+    		- čísla s pohyblivou desetinnou čárkou (tečkou)
       		- Oproti celým číslům nejsou tak přesná u větších hodnot, ale jsou schopná uchovat mnohem větší číslo
       		- double je větší float (víc bitů alokovaných v paměti)
     	2. Prázdné datové typy
       		- `void` -> většinou vyjadřuje, že funkce nevrací žádnou hodnotu
       		- `null`-> proměnná nemá (smyslnou) hodnotu
-      		- `none` -> většinou objekotvé programování, určuje, že objekt není
+      		- `none` -> většinou objektové programování, určuje, že objekt není
 
         <img src="https://www.datocms-assets.com/34817/1672148177-agzven5_700b.jpg" width="500">
 
     3. Pointer
     	- Ukazuje na místo v paměti, kde se nachází hodnota proměnné
     	- Například v linked listu ukazuje na následující hodnotu
+		TODO zmínit, že většina jazyků jej už nepoužívá (respektive ano, ale nemůže jej dělat programátor)
 
     <div style="page-break-after: always;"></div>
 
@@ -37,7 +38,7 @@ Slouží k určení typu hodnot uložených v proměnné. Podle typu hodnoty jdo
           		- `[ ["a", "b"], ["c", "d"] ]`
           		- Jsou potřeba 2 for loop(y)
          	- 3D list
-          		- `[ [ ["a", "b"], ["c", "d"] ], [ ["e", "f"], ["g", "h"] ] ] `
+          		- `[ [ ["a", "b"], ["c", "d"] ], [ ["e", "f"], ["g", "h"] ] ]`
           		- Jsou potřeba 3 for loop(y)
 
 2. Homogenní/Nehomogenní

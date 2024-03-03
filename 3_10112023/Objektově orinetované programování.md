@@ -3,9 +3,9 @@ Způsob strukturování kódu, kde spojujeme příbuzné metody a proměnné do 
 - Třída
 	- Návrh (blueprint) pro objekt. Většinou obsahuje pouze obecné metody a proměnné
 - Objekt
-	- Je instance třídy, která již využívá přesně definovaná data. Objek většinou reprezentuje určitý předmět z abstraktního nebo reálného světa
+	- Je instance třídy, která již využívá přesně definovaná data. Objekt většinou reprezentuje určitý předmět z abstraktního nebo reálného světa
 - Metody
-	- Funkce devinované v rámci třídy. Samotný objekt je může jen využívat nebo upravit dle svých potřeb
+	- Funkce definované v rámci třídy. Samotný objekt je může jen využívat nebo upravit dle svých potřeb
 - Vlastnosti
 	- Proměnné vytvořené v rámci třídy. Až objekt jim přiřadí hodnotu a nadále s nimi pracuje
 ```python
@@ -18,6 +18,7 @@ emp1 = Employee()
 ```
 
 ## Proměnné
+TODO Rozdíl mezi protected a private
 Python nemá na rozdíl od jiných jazyků přímo implementovanou funkci protected a private proměnných. Místo toho se používají určité konvence
 
 - Protected proměnné
@@ -139,7 +140,7 @@ dog1.make_sound()
 - Třída
 - Konstruktor
 - Dědění
-- Ukázka (Zvíře -> kočka/pes)
+  -  Ukázka (Zvíře -> kočka/pes)
 - Bázová/odvozená třída
 - Volání konstruktoru nadřazené třídy
 - polymorfizmus

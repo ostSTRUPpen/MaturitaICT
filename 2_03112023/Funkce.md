@@ -35,7 +35,7 @@ print(can_drink(19, 18))
 Funkce v pythonu (a jiných programovacích jazycích) má svá specifika
 - Pojmenované parametry
 	- Při volání funkce je možné jednotlivé parametry výslovně přiřadit určitému argumentu funkce
-- Defaultní hodnoty
+- Default hodnoty
 	- Využívají se při vytváření funkce - jsou použity v případě, že funkci není dodán parametr
 - Libovolný počet argumentů
 	- Pokud neznáme počet argumentů, který bude do funkce vložen při jejím zavolání, tak je možné použit klíčová slova: (POZOR! pokud používáme pojmenované i nepojmenované argumenty, musí být klíčová slova jako poslední, jinak přeberou i pojmenované parametry)
@@ -47,7 +47,7 @@ Funkce v pythonu (a jiných programovacích jazycích) má svá specifika
 	- Lokální proměnné jsou dostupné pouze ve funkci - globální po celém programu. (POZOR! pokud chci ve funkci upravit globální proměnnou je nutné použít klíčové slovo global)
 
 ```python
-# Defaultní hodnoty, pojmenované parametry
+# Default hodnoty, pojmenované parametry
 
 # v tomto případě je legal_drinking_age 18, pokud není napsaná jiná hodnota
 def can_drink(age, legal_drinking_age = 18):
@@ -134,7 +134,7 @@ input_num = int(input("Číslo pro výpočet faktoriálu > "))
 print(f"{input_num}! = {factorial(input_num)}")
 ```
 ## Funkce main
-Main funkce je funkce, která se spustí pokud python interpreter otevře python soubor (využívá se hlavně u programování pro Raspberry Pi a další mikro počítače)
+Main funkce je funkce, která se spustí pokud python interpreter otevře python soubor (využívá se hlavně u programování pro Raspberry Pi a další mikropočítače)
 
 Většina jazyků má přímo nějaké klíčové slovo, které se používá jako název funkce a určuje, že je funkce hlavní.
 
@@ -155,13 +155,13 @@ if __name__ == "__main__":
 
 ## MATURITA
 -   Definice a syntax funkce
--   Specifika pro python (pojmenované paramtery, \*args, \*\*kwargs, globální/lokální proměnné)
+-   Specifika pro python (pojmenované parametry, \*args, \*\*kwargs, globální/lokální proměnné)
 -   Rekurze
 -   Ukázka využití funkce nebo rekurzivní funkce
 
 ## KÓD Z HODINY
 ```python
-# Výpočet nové ceny na základě staré ceny a procentuální slevys
+# Výpočet nové ceny na základě staré ceny a procentuální slevy, pomocí funkce
 def getPrice(name, old_price, discount):
     new_price = old_price - (old_price*(discount/100))
     return [name, new_price]

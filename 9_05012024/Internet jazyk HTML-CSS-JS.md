@@ -64,7 +64,6 @@
     </head>
 
     <body>
-
     	<p>Počet:</p>
     	<div class="form">
     		<p id="output">0</p>
@@ -77,8 +76,7 @@
     			document.getElementById("output").innerHTML = count++;
     		}
     	</script>
-    	<!--
-    	Odkaz na vnější js soubor
+    	<!-- Odkaz na vnější js soubor
     	<script src="PATH/NAME.js"></script>
     	-->
     </body>
@@ -91,7 +89,7 @@
 -   Slouží k usnadnění práce pro programátora
 -   Různé typy - v dnešní době hlavně zaměření na HTML a CSS
 -   React.js / Svelte (jedny z mnoha)
--   Moderní webové stránky často využívají též Typescript (JS s datovými typy) a např tailwind (zjednodušení práce s CSS)
+-   Moderní webové stránky často využívají též Typescript (JS s datovými typy) a např tailwindcss (zjednodušení práce s CSS)
 
 -   Stejná stránka ve frameworku Svelte
 
@@ -122,3 +120,5 @@
         }
     </style>
 ```
+
+## MATURITA

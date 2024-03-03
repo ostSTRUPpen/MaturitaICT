@@ -7,9 +7,9 @@ Pro naše potřeby postačí soubory .txt .csv a .json. Jedná se o samostatné 
 - .json -> JavaScript Object Notation - využívá se pro ukládání dat ve formátu "klíč": "hodnota", často využíván při komunikaci mezi programy(servery) pro svoji jednoduchost a čitelnost (i pro programátora)
 
 Operace se soubory (v pythonu)
-- Čtení ('r') -> Slouží k pouhému přečtění dat v souboru (nelze jej upravit)
+- Čtení ('r') -> Slouží k pouhému přečtení dat v souboru (nelze jej upravit)
 - Zápis ('w') -> Slouží k zápisu do souboru. Pokud soubor neexistuje, tak jej vytvoří. Pokud v sobě již má nějaká data, tak je přepíše.
-- Připsání ('a') -> Slouží k přidání dat do souboru (narozdíl od 'w' jej nepřepíše). Pokud soubor neexistuje, tak jej vytvoří
+- Připsání ('a') -> Slouží k přidání dat do souboru (na rozdíl od 'w' jej nepřepíše). Pokud soubor neexistuje, tak jej vytvoří
 
 Postup u .csv a .json souborů je stejný, pouze využíváme knihoven "csv" a "json"
 - [csv](https://www.geeksforgeeks.org/working-csv-files-python/)
@@ -57,6 +57,9 @@ with open("test.txt", "a") as file:
 # Goodbye World
 ```
 <div style="page-break-after: always;"></div>
+
+## MATURITA
+- Program na TODO list
 
 # Ukázka:
 Program na čištění zbytečných informací z logů vygenerovaných ROBOCOPY (využívám při kopírování záloh na jiný disk)
